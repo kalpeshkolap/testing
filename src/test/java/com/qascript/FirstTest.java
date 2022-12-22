@@ -15,7 +15,6 @@ public class FirstTest {
         System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("headless");
-	chromeOptions.add_argument("--remote-debugging-port=9222");
         options.addArguments("disable-gpu");
         driver = new ChromeDriver(options);
         driver.get("https://www.google.com");
