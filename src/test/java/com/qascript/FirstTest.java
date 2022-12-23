@@ -18,6 +18,7 @@ public class FirstTest {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("headless");
         options.addArguments("disable-gpu");
+        options.addArguments("--disable-dev-shm-usage");
         driver = new ChromeDriver(options);
        // WebDriver driver = new FirefoxDriver();
         driver = new ChromeDriver();
