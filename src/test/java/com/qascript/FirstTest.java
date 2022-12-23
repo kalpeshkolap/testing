@@ -1,11 +1,12 @@
 package com.qascript;
 
-import org.junit.Assert;
-import org.junit.Test;
+//import org.junit.Assert;
+//import org.junit.Test;
 import org.openqa.selenium.WebDriver;
-//import org.openqa.selenium.chrome.ChromeDriver;
+//im///port org.openqa.selenium.chrome.ChromeDriver;
 //import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox;
+import org.testng.annotations.Test;
 
 public class FirstTest {
 
@@ -22,7 +23,7 @@ public class FirstTest {
         driver = new FirefoxDriver();
         driver.get("https://www.google.com");
         System.out.println("Title of the page is: " + driver.getTitle());
-        Assert.assertTrue("Page title is not correct",driver.getTitle().equals("Google"));
+       // Assert.assertTrue("Page title is not correct",driver.getTitle().equals("Google"));
     }
 
 
