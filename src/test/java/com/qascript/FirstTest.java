@@ -19,7 +19,7 @@ public class FirstTest {
         options.addArguments("headless");
         options.addArguments("disable-gpu");
         driver = new ChromeDriver(options);
-        WebDriver driver = new FirefoxDriver();
+       // WebDriver driver = new FirefoxDriver();
         driver = new ChromeDriver();
         driver.get("https://www.google.com");
         System.out.println("Title of the page is: " + driver.getTitle());
